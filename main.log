@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2025.1.13)  20 JAN 2025 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2025.1.13)  22 JAN 2025 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main
+**main.tex
 (./main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -165,8 +165,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box53
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -185,6 +184,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Info: Redefining \celsius on input line 13.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 13.
+
 
 
 Package gensymb Warning: Not defining \perthousand.
@@ -250,10 +250,11 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./content/reading_assignment1.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/p
-dftex.map}
+(./content/reading_assignment1.tex) (./content/lecture1.tex [1{/var/lib/texmf/f
+onts/map/pdftex/updmap/pdftex.map}
 
 
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2]) [3
 
 ] (./main.aux)
  ***********
@@ -262,21 +263,24 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3368 strings out of 476147
- 50843 string characters out of 5795428
- 1929975 words of memory out of 5000000
- 25353 multiletter control sequences out of 15000+600000
- 562383 words of font info for 51 fonts, out of 8000000 for 9000
+ 3393 strings out of 476147
+ 51293 string characters out of 5795428
+ 1942975 words of memory out of 5000000
+ 25369 multiletter control sequences out of 15000+600000
+ 564133 words of font info for 57 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 57i,8n,65p,513b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (1 page, 56390 bytes).
+ 57i,8n,65p,517b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-di
+st/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (3 pages, 122402 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
